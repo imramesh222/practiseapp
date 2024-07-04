@@ -1,10 +1,17 @@
-import React from 'react'
-import Slider from '../components/Slider'
+import React from "react";
+
+import Navbar from "../components/Navbar";
+import TextForms from "../components/TextForms";
 
 const Homepage = () => {
   return (
-    <Slider/>
-  )
-}
+    <>
+      <Navbar title="Ramesh" aboutText="About Ramesh" />
+      <div className="container">
+        <TextForms heading="Enter your messages" />
+      </div>
+    </>
+  );
+};
 
-export default Homepage
+export default Homepage;

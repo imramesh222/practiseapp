@@ -10,7 +10,7 @@ const Header = () => {
             <a href='/' className='d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none'><h1>MyPasal</h1></a>
           
               <form className='col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 ' role='search'>
-                <input type='search'  className='form-control-dark mx-2'></input><button type='submit' className='btn btn-outline-light'><i class="bi bi-search"></i></button>
+                <input type='search'  className='form-control-dark mx-2'></input><button type='submit' className='btn btn-outline-light'><i className="bi bi-search"></i></button>
               </form>
         </div> 
       </div> 
@@ -26,9 +26,9 @@ const Header = () => {
              </div>
 
               <div className='d-flex justify-content-centre px-2'>
-                <a href='#' className='fs-2 text-dark px-1'><i class="bi bi-person-add"></i></a>
-               <a href='#' className='fs-2 text-dark px-1'><i class="bi bi-box-arrow-in-right"></i></a>
-               <a href='#' className='fs-2 text-dark px-1'><i class="bi bi-person-circle"></i></a>
+                <a href='#' className='fs-2 text-dark px-1'><i className="bi bi-person-add"></i></a>
+               <a href='#' className='fs-2 text-dark px-1'><i className="bi bi-box-arrow-in-right"></i></a>
+               <a href='#' className='fs-2 text-dark px-1'><i className="bi bi-person-circle"></i></a>
              </div>
          </div>
        </div>
